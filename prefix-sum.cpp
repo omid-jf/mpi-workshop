@@ -58,7 +58,7 @@ void main(int argc, char **argv)
 		step++;
 	}
 
-	printf("I'm %d and my sum is %d\n", rank, result);
+	cout << "I'm " << rank << " and my sum is " << result << endl;
 
 	MPI_Finalize();
 }
